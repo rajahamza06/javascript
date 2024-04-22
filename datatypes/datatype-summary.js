@@ -48,3 +48,24 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+// =================================================================   //
+
+/*------------ Stack memory(Premitive)      ////////   Heap(Non-Premitive)   ------------*/ 
+
+let myname = "raja hamza"
+let anothername = myname
+console.log(anothername);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "hamza@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
