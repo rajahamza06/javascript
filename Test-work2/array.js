@@ -1,5 +1,4 @@
 const arrayone = [0,1,2,3,4,5]
-// const arraytwo = ["hui", "hur", "huf"]
 
 const arraytwo = new Array(1,2,3,4)
 console.log(arraytwo[1]);
@@ -31,3 +30,5 @@ console.log("B", arraytwo);
 const myn2 = arraytwo.splice(1, 3)
 console.log("c", arraytwo);
 console.log(myn2);
+
+
